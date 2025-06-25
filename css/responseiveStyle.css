@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+    .navbar a {
+        font-size: 1.2rem;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner p {
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+
+    .cs-flex {
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+    }
+
+    .left-container {
+        width: 100%;
+    }
+
+    .right-container {
+        width: 100%;
+        justify-content: start;
+    }
+
+    .project-card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .navbar a {
+        font-size: 1rem;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
