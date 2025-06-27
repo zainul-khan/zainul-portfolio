@@ -108,7 +108,7 @@ video {
 .common-section {
     width: 80%;
     display: block;
-    margin: 1.2rem auto;
+    margin: 1.4rem auto;
     min-height: 100vh;
 }
 
@@ -277,7 +277,7 @@ video {
     color: var(--primary-navy);
 }
 
-.project-card span:hover {
+.project-card span:hover, .project-card a:hover {
     background-color: var(--primary-navy);
     color: var(--secondary-white);
 }
@@ -298,10 +298,70 @@ video {
     color: var(--primary-navy);
 }
 
-.fourth p {
+
+.fourth {
+    min-height: 50vh;
+}
+
+#tab-content-container {
+    margin-top: 2rem;
+}
+
+.tabs-container {
+    margin: 2rem 0;
+}
+
+.tab-btn {
+    background-color: #142937;
+    color: var(--primary-white);
+    padding: 8px 14px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 12px 8px;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none; /* Hide by default */
+    flex-wrap: wrap;
+}
+
+.tab-content.active {
+    display: flex; /* Show only the active one */
+}
+
+.tab-btn.active {
+    background-color: var(--primary-white);
+    color: #142937;
+    font-weight: bold;
+}
+
+.tab-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 15px 20px 0;
+    border: 1px solid #142937;
+    width: 150px;
+    padding: 16px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.tab-info svg {
+    color: var(--primary-navy);
+}
+
+.fifth p {
     margin: 5px;
 }
 
 .contact-info-1 {
     color: var(--primary-white);
+}
+
+.fifth .one-liner {
+    font-size: 22px;
+    margin: 12px 0;
 }
