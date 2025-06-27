@@ -41,3 +41,29 @@
         width: 100%;
     }
 }
+
+
+@media screen and (max-width: 500px) {
+
+    .banner-btn {
+        display: block;
+        margin: 18px 0;
+    }
+
+    .common-section h1 {
+        color: var(--secondary-white);
+        font-size: 2rem;
+    }
+
+    .tab-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 10px 20px 0;
+        border: 1px solid #142937;
+        width: 130px;
+        padding: 12px 8px;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+}
